@@ -9,3 +9,6 @@ if inverso == juntar:
     print('A frase é um palíndromo!')
 else:
     print('Não é um palíndromo!')
+
+# Sem utilizar o for poderia ser assim:
+#   inverso = juntar[::-1]
