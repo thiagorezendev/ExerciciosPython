@@ -1,3 +1,4 @@
+from time import sleep
 valora = int(input('Digite o primeiro valor: '))
 valorb = int(input('Digite o segundo valor: '))
 maior = 0
@@ -33,3 +34,4 @@ while escolha != 5:
         break
     else:
         print('Opção inválida! Tente novamente.')
+    sleep(1)
