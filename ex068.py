@@ -5,9 +5,11 @@ print('=' * 19)
 vit = 0
 while True:
     n = int(input('Digite um valor: '))
-    s = str(input('Par ou Ímpar? [P/I] ')).upper().strip()
     pc = randint(0, 10)
     soma = n + pc
+    s = ' '
+    while s not in 'PI':
+        s = str(input('Par ou Ímpar? [P/I] ')).upper().strip()
     if soma % 2 == 0:
         print('~' * 45)
         print(f'Você jogou {n} e o PC {pc}. Total de {soma} deu par!')
