@@ -1,0 +1,12 @@
+tabela = ('Atlético', 'Flamengo', 'Palmeiras', 'Fortaleza', 'Corinthians', 'Bragantino', 'Fluminense', 'América-MG', 'Atlético-GO', 'Santos',
+         'Ceará', 'Internacional', 'São Paulo', 'Athletico-PR', 'Cuiabá', 'Juventude', 'Grêmio', 'Bahia', 'Sport', 'Chapecoense')
+print('=' * 55)
+print(f'Tabela final do Brasileirão 2021: {tabela}')
+print('=' * 55)
+print(f'Os cinco primeiro colocados do Brasileirão 2021 foram: {tabela[:5]}')
+print('=' * 55)
+print(f'Os últimos quatro colocados da tabela do Brasileirão 2021 foram: {tabela[-4:]}')
+print('=' * 55)
+print(f'Times em ordem alfabética: {sorted(tabela)}')
+print('=' * 55)
+print(f'A Chapecoense está na {tabela.index("Chapecoense") + 1}ª posição')
