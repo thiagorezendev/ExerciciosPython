@@ -1,7 +1,7 @@
 from time import sleep
 def contador(inicio, fim, passo):
     if passo < 0:
-        passo *= -1
+        passo *= -1 # Transformando em positivo
     if passo == 0:
         passo = 1
 
